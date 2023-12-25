@@ -1,0 +1,27 @@
+#parent {
+    display: flex;
+    background-color: #1f2022;
+    height: auto;
+    width: 100%;
+    
+}
+#gamecontainer {
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #2f3032;
+    flex: 1;
+    padding-bottom: 5%;
+
+}
+#game {
+    width: 500px;
+    height: 500px;
+    padding: 5%;
+    margin-bottom: 5%;
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
